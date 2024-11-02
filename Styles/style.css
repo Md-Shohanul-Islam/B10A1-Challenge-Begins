@@ -70,8 +70,8 @@ nav {
 
 /* why web related styles  */
 .why-web {
-    width: 946px;
-    height: 1233px;
+    width: 1140px;
+    height: 1250px;
     margin: 74px auto 90px;
     padding: 80px 97px;
     background: rgba(13, 19, 33, 0.02);
@@ -112,5 +112,21 @@ nav {
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
     margin-top: 32px;
+}
+
+/* My Inspiration related styles  */
+
+.inspiration {
+    width: 1260px;
+    height: 660px;
+    margin: 90px auto 150px;
+    justify-items: center;
+}
+.i-video {
+    width: 100%;
+    margin: 48px 0 0 0;
+    padding: 32px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
 
 }
