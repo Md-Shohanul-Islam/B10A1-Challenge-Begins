@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 /* common shared styles */
 body{
@@ -67,11 +70,12 @@ nav {
     text-align: center;
     padding: 0 500px 32px;
 }
-.contact-btn {
+.banner a {
     background-color: rgb(13, 19, 33);
     color: rgb(255, 255, 255);
     padding: 21px 24px;
     border-radius: 8px;
+    text-decoration: none;
 }
 
 /* why web related styles  */
