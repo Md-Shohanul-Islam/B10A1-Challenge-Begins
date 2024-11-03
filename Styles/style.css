@@ -183,3 +183,55 @@ nav {
 .next-container-2 {
     margin: 24px 0;
 }
+
+/* support  */
+.support {
+    background-image: url(../assets/handshake.jpg);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1260px;
+    margin: 50px auto 80px;
+    padding: 70px 0px;
+    border-radius: 16px;
+}
+.support-title {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+.support-p {
+    color: rgba(255, 255, 255, 0.788);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin: 20px 350px 40px;
+}
+.support-text-sub {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#support-text {
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    padding: 20px 40px 0;
+    border: none;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+.support-btn {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+    padding: 20px 17px;
+}
