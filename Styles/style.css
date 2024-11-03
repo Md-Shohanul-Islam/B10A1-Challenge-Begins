@@ -21,6 +21,12 @@ body{
     text-align: center;
     cursor: pointer;
 }
+a {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    
+}
 
 /* nav related style  */
 nav {
@@ -135,6 +141,7 @@ nav {
     width: 1260px;
     margin: 100px auto;
 }
+/* current  */
 .current-container {
     display: flex;
     justify-content: space-between;
@@ -159,9 +166,20 @@ nav {
 .current-items-3 {
     background: rgba(255, 223, 0, 0.05);
 }
-.current-items a {
-    color: rgb(13, 19, 33);
-    font-size: 16px;
-    font-weight: 700;
-    
+
+/* next  */
+.next {
+    margin-top: 111px;
+}
+
+.next-container {
+    display: flex;
+    gap: 30px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+}
+.next-container-2 {
+    margin: 24px 0;
 }
